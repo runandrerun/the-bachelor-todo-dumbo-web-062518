@@ -60,5 +60,6 @@ def get_average_age_for_season(data, season)
   data.each do |people|
     people.each do |info, value|
         if info == "age"
-          return
+          count += 1
+          
 end
